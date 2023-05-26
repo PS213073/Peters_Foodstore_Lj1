@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+   <title>Bestelformulier</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="css/Peter.css">
+   <link rel="stylesheet" type="text/css" href="css/bestel.css">
+</head>
+ <body>   
+      <header>
+          <h1>
+              Peters Foodstore
+          </h1>
+         </header>
+ 
+  <nav>
+   <ul id="ulmenu">
+     <li>
+       <a class="amenu" href="index.html">Home</a>
+     </li>
+     <li>
+       <a class="amenu" href="menus.html">Menu</a>
+     </li>
+     <li>
+       <a class="amenu" href="Voorwarden.html">ALV</a>
+     </li>
+     <li>
+       <a class="amenu" href="bestel.html">Bestellen</a>
+     </li>
+   </ul>
+ </nav>
+
+      <article>
+  <h2>Bestelformulier</h2>
+  <form action="bestel.php" method="GET">
+   <table>
+     <tr>
+        <th>Menu</th>
+        <th>Prijs</th>
+        <th>Aantal</th>
+     </tr>
+     <tr>
+      <td>
+          <a href="menus.html#tonijnsalade">Tonijnsalade</a></td>
+      <td>
+          &euro; 7,50
+      </td>
+      <td>
+          <input name="aantaltonijn" type="number" required />
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <a href="menus.html#kipkerrie">Kip-Kerrie Salade</a>
+      </td>
+      <td>
+          &euro; 8,50
+      </td>
+      <td>
+          <input name="aantalkipkerrie" type="number" required />
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <a href="menus.html#caesar">Caesar-salade</a>
+      </td>
+      <td>
+          &euro; 9,00
+      </td>
+      <td>
+          <input name="aantalcaesar" type="number" required />
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <a href="menus.html#Margaritha">Pizza Margaritha</a>
+      </td>
+      <td>
+          &euro; 5,00
+      </td>
+      <td>
+          <input name="aantalMargaritha" type="number" required />
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <a href="menus.html#FourCheese">Pizza Four Cheese</a>
+      </td>
+      <td>
+          &euro; 10,50
+      </td>
+      <td>
+          <input name="aantalFourCheese" type="number" required />
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <a href="menus.html#American">Pizza American Supreme Meatlover</a>
+      </td>
+      <td>
+          &euro; 11,50
+      </td>
+      <td>
+          <input name="aantalAmerican" type="number" required/>
+      </td>
+  </tr>
+
+  <tr>
+      <td>
+          <a href="menus.html#BBQ">Pizza BBQ Mixed Grill</a>
+      </td>
+      <td>
+          &euro; 11,50
+      </td>
+      <td>
+          <input name="aantalBBQ" type="number" required />
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <a href="menus.html#Beef"> Pizza Pulled Beef Meatlover</a>
+      </td>
+      <td>
+          &euro; 11,50
+      </td>
+      <td>
+          <input name="aantalBeef" type="number" required/>
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <a href="menus.html#Kebab">Pizza Chicken Kebab</a>
+      </td>
+      <td>
+          &euro; 12,00
+      </td>
+      <td>
+          <input name="aantalKebab" type="number" required />
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <a href="menus.html#Extravaganzza">Pizza Extravaganzza</a>
+      </td>
+      <td>
+          &euro; 12,00
+      </td>
+      <td>
+          <input name="aantalExtravaganzza" type="number" required />
+      </td>
+  </tr>
+  <tr>
+  <td>
+   Naam:<input name="naam" type="text" pattern="[A-Za-z .-]+" required />
+</td>
+<td>
+   Telefoon: <input name="tel"  type="tel" pattern="[0-9 .-]+" required/>
+</td>
+<td>
+   <button type="submit" >
+      OK
+   </button>
+</td>
+</tr>
+</table>
+    </form>
+    
+    </article>
+   
+   <footer>      
+          <p><b>Peters Foodstore</b>, Hoofdstraat 25, 6666 TR Boekel Tel.<b>0800-FOODSTORE</b></p>
+    </footer>
+   </body>
+ </html>
+ 

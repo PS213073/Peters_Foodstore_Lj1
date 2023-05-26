@@ -1,0 +1,10 @@
+h2{
+    left: 20px;
+}
+table{
+    border: 5px solid red;
+    position: relative;
+    left: 0px;
+    bottom: 10px;
+    
+}

@@ -1,0 +1,13 @@
+h1{
+    position: relative;
+    left: 0px;
+}
+h2{
+    text-align: center;
+}
+p{
+    position: relative;
+    text-align: center;
+    right: 80px;
+}
+ 
